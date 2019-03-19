@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">QuanLyDuLieuTaiChinh</string>
+
+    <!-- fragment_fragment_menu -->
+    <string name="text_btnHoSoDoanhNghiep_frag_menu">Hồ sơ doanh nghiệp</string>
+    <string name="text_txtTaiChinh_frag_menu">Tài chính</string>
+    <string name="text_btnKetQuaKinhDoanh_frag_menu">1. Kết quả kinh doanh</string>
+    <string name="text_btnCanDoiKeToan_frag_menu">2. Cân đối kế toán</string>
+    <string name="text_btnLuuChuyenTienTeGianTiep">3. Lưu chuyển tiền tệ gián tiếp</string>
+    <string name="text_btnLuuChuyenTienTeTrucTiep">4. Lưu chuyển tiền tệ trực tiếp</string>
+    <string name="text_btnChiSoTaiChinh_frag_menu">5. Chỉ số tài chính</string>
+    <string name="text_btnChiTieuKeHoach_frag_menu">6. Chỉ tiêu kế hoạch</string>
+    <string name="text_txtBieuDo_frag_menu">Biểu đồ</string>
+
+    <!-- fragment_kqkd -->
+    <string name="text_txtTK01_frag_kqkd">1. Doanh thu bán hàng và cung cấp dịch vụ</string>
+    <string name="text_txtTK02_frag_kqkd">2. Các khoản giảm trừ doanh thu</string>
+    <string name="text_txtTK10_frag_kqkd">3. Doanh thu thuần về bán hàng và cung cấp dịch vụ (10=01-02)</string>
+    <string name="text_txtTK11_frag_kqkd">4. Giá vốn hàng bán</string>
+    <string name="text_txtTK20_frag_kqkd">5. Lợi nhuận gộp về bán hàng và cung cấp dịch vụ(20=10-11)</string>
+    <string name="text_txtTK21_frag_kqkd">6. Doanh thu hoạt động tài chính</string>
+    <string name="text_txtTK22_frag_kqkd">7. Chi phí tài chính</string>
+    <string name="text_txtTK23_frag_kqkd">- Trong đó: Chi phí lãi vay</string>
+    <string name="text_txtTK25_frag_kqkd">8. Chi phí bán hàng</string>
+    <string name="text_txtTK26_frag_kqkd">9. Chi phí quản lý doanh nghiệp</string>
+    <string name="text_txtTK30_frag_kqkd">10. Lợi nhuận thuần từ hoạt động kinh doanh (30=20+21-25-26)</string>
+    <string name="text_txtTK31_frag_kqkd">11. Thu nhập khác</string>
+    <string name="text_txtTK32_frag_kqkd">12. Chi phí khác</string>
+    <string name="text_txtTK40_frag_kqkd">13. Lợi nhuận khác (40=31-32)</string>
+    <string name="text_txtTK50_frag_kqkd">14. Tổng lợi nhuận kế toán trước thuế (50=30+40)</string>
+    <string name="text_txtTK51_frag_kqkd">15. Chi phí thuế TNDN hiện hành</string>
+    <string name="text_txtTK52_frag_kqkd">16. Chi phí thuế TNDN hoãn lại</string>
+    <string name="text_txtTK60_frag_kqkd">17. Lợi nhuận sau thuế thu nhập doanh nghiệp (60=50-51-52)</string>
+    <string name="text_txtTK70_frag_kqkd">18. Lãi cơ bản trên cổ phiếu</string>
+    <string name="text_txtTK71_frag_kqkd">19. Lãi suy giảm trên cổ phiếu</string>
+
+    <!-- fragment_cdkt -->
+    <string name="text_txtTK100_frag_cdkt">A. Tài sản ngắn hạn (100=110+120+130+140+150)</string>
+    <string name="text_txtTK110_frag_cdkt">I. Tiền và các khoản tương đương tiền</string>
+    <string name="text_txtTK111_frag_cdkt">1. Tiền</string>
+    <string name="text_txtTK112_frag_cdkt">2. Các khoản tương đương tiền</string>
+    <string name="text_txtTK120_frag_cdkt">II. Các khoản đầu tư tài chính ngắn hạn</string>
+    <string name="text_txtTK121_frag_cdkt">1. Chứng khoán kinh doanh</string>
+    <string name="text_txtTK122_frag_cdkt">2. Dự phòng giảm giá chứng khoán kinh doanh</string>
+    <string name="text_txtTK123_frag_cdkt">3. Đầu tư nắm giữ đến ngày đáo hạn</string>
+    <string name="text_txtTK130_frag_cdkt">III. Các khoản phải thu ngắn hạn</string>
+    <string name="text_txtTK131_frag_cdkt">1. Phải thu ngắn hạn của khách hàng</string>
+    <string name="text_txtTK132_frag_cdkt">2. Trả trước cho người bán ngắn hạn</string>
+    <string name="text_txtTK133_frag_cdkt">3. Phải thu nội bộ ngắn hạn</string>
+    <string name="text_txtTK134_frag_cdkt">4. Phải thu theo tiến độ kế hoạch hợp đồng xây dựng</string>
+    <string name="text_txtTK135_frag_cdkt">5. Phải thu về cho vay ngắn hạn</string>
+    <string name="text_txtTK136_frag_cdkt">6. Phải thu ngắn hạn khác</string>
+    <string name="text_txtTK137_frag_cdkt">7. Dự phòng phải thu ngắn hạn khó đòi</string>
+    <string name="text_txtTK139_frag_cdkt">8. Tài sản thiếu chờ xử lý</string>
+    <string name="text_txtTK140_frag_cdkt">IV. Hàng tồn kho</string>
+    <string name="text_txtTK141_frag_cdkt">1. Hàng tồn kho</string>
+    <string name="text_txtTK149_frag_cdkt">2. Dự phòng giảm giá hàng tồn kho</string>
+    <string name="text_txtTK150_frag_cdkt">V. Tài sản ngắn hạn khác</string>
+    <string name="text_txtTK151_frag_cdkt">1. Chi phí trả trước ngắn hạn</string>
+    <string name="text_txtTK152_frag_cdkt">2. Thuế GTGT được khấu trừ</string>
+    <string name="text_txtTK153_frag_cdkt">3. Thuế và các khoản khác phải thu Nhà nước</string>
+    <string name="text_txtTK154_frag_cdkt">4. Giao dịch mua bán lại trái phiếu chính phủ</string>
+    <string name="text_txtTK155_frag_cdkt">5. Tài sản ngắn hạn khác</string>
+    <string name="text_txtTK200_frag_cdkt">B. Tài sản dài hạn (200=210+220+240+250+260)</string>
+    <string name="text_txtTK210_frag_cdkt">I. Các khoản phải thu dài hạn</string>
+    <string name="text_txtTK211_frag_cdkt">1. Phải thu dài hạn của khách hàng</string>
+    <string name="text_txtTK212_frag_cdkt">2. Trả trước cho người bán dài hạn</string>
+    <string name="text_txtTK213_frag_cdkt">3. Vốn kinh doanh ở đơn vị trực thuộc</string>
+    <string name="text_txtTK214_frag_cdkt">4. Phải thu nội bộ dài hạn</string>
+    <string name="text_txtTK215_frag_cdkt">5. Phải thu về cho vay dài hạn</string>
+    <string name="text_txtTK216_frag_cdkt">6. Phải thu dài hạn khác</string>
+    <string name="text_txtTK219_frag_cdkt">7. Dự phòng phải thu dài hạn khó đòi (*)</string>
+    <string name="text_txtTK220_frag_cdkt">II. Tài sản cố định</string>
+    <string name="text_txtTK221_frag_cdkt">1. TSCĐ hữu hình</string>
+    <string name="text_txtTK222_frag_cdkt">- Nguyên giá</string>
+    <string name="text_txtTK223_frag_cdkt">- Giá trị hao mòn lũy kế (*)</string>
+    <string name="text_txtTK224_frag_cdkt">2. TSCĐ thuê tài chính</string>
+    <string name="text_txtTK225_frag_cdkt">- Nguyên giá</string>
+    <string name="text_txtTK226_frag_cdkt">- Giá trị hao mòn lũy kế (*)</string>
+    <string name="text_txtTK227_frag_cdkt">3. TSCĐ vô hình</string>
+    <string name="text_txtTK228_frag_cdkt">- Nguyên giá</string>
+    <string name="text_txtTK229_frag_cdkt">- Giá trị hao mòn lũy kế (*)</string>
+    <string name="text_txtTK230_frag_cdkt">III. Bất động sản đầu tư</string>
+    <string name="text_txtTK231_frag_cdkt">- Nguyên giá</string>
+    <string name="text_txtTK232_frag_cdkt">- Giá trị hao mòn luỹ kế</string>
+    <string name="text_txtTK240_frag_cdkt">IV. Tài sản dở dang dài hạn</string>
+    <string name="text_txtTK241_frag_cdkt">1. Chi phí sản xuất, kinh doanh dở dang dài hạn</string>
+    <string name="text_txtTK242_frag_cdkt">2. Chi phí xây dựng cơ bản dở dang</string>
+    <string name="text_txtTK250_frag_cdkt">V. Các khoản đầu tư tài chính dài hạn</string>
+    <string name="text_txtTK251_frag_cdkt">1. Đầu tư vào công ty con</string>
+    <string name="text_txtTK252_frag_cdkt">2. Đầu tư vào công ty liên kết, liên doanh</string>
+    <string name="text_txtTK253_frag_cdkt">3. Đầu tư góp vốn vào đơn vị khác</string>
+    <string name="text_txtTK254_frag_cdkt">4. Dự phòng đầu tư tài chính dài hạn(*)</string>
+    <string name="text_txtTK255_frag_cdkt">5. Đầu tư nắm giữ đến ngày đáo hạn</string>
+    <string name="text_txtTK260_frag_cdkt">VI. Tài sản dài hạn khác</string>
+    <string name="text_txtTK261_frag_cdkt">1. Chi phí trả trước dài hạn</string>
+    <string name="text_txtTK262_frag_cdkt">2. Tài sản thuế thu nhập hoãn lại</string>
+    <string name="text_txtTK263_frag_cdkt">3. Thiết bị, vật tư, phụ tùng thay thế dài hạn</string>
+    <string name="text_txtTK268_frag_cdkt">4. Tài sản dài hạn khác</string>
+    <string name="text_txtTK270_frag_cdkt">Tổng cộng tài sản (270=100+200)</string>
+    <string name="text_txtTK300_frag_cdkt">C. Nợ phải trả (300=310+330)</string>
+    <string name="text_txtTK310_frag_cdkt">I. Nợ ngắn hạn</string>
+    <string name="text_txtTK311_frag_cdkt">1. Phải trả người bán ngắn hạn</string>
+    <string name="text_txtTK312_frag_cdkt">2. Người mua trả tiền trước ngắn hạn</string>
+    <string name="text_txtTK313_frag_cdkt">3. Thuế  và các khoản phải nộp nhà nước</string>
+    <string name="text_txtTK314_frag_cdkt">4. Phải trả người lao động</string>
+    <string name="text_txtTK315_frag_cdkt">5. Chi phí phải trả ngắn hạn</string>
+    <string name="text_txtTK316_frag_cdkt">6. Phải trả nội bộ ngắn hạn</string>
+    <string name="text_txtTK317_frag_cdkt">7. Phải trả theo tiến độ kế hoạch hợp đồng xây dựng</string>
+    <string name="text_txtTK318_frag_cdkt">8. Doanh thu chưa thực hiện ngắn hạn</string>
+    <string name="text_txtTK319_frag_cdkt">9. Phải trả ngắn hạn khác</string>
+    <string name="text_txtTK320_frag_cdkt">10. Vay và nợ thuê tài chính ngắn hạn</string>
+    <string name="text_txtTK321_frag_cdkt">11. Dự phòng phải trả ngắn hạn</string>
+    <string name="text_txtTK322_frag_cdkt">12. Quỹ khen thưởng, phúc lợi</string>
+    <string name="text_txtTK323_frag_cdkt">13. Quỹ bình ổn giá</string>
+    <string name="text_txtTK324_frag_cdkt">14. Giao dịch mua bán lại trái phiếu CHính Phủ</string>
+    <string name="text_txtTK330_frag_cdkt">II. Nợ dài hạn</string>
+    <string name="text_txtTK331_frag_cdkt">1. Phải trả người bán dài hạn</string>
+    <string name="text_txtTK332_frag_cdkt">2. Người mua trả tiền trước dài hạn</string>
+    <string name="text_txtTK333_frag_cdkt">3. Chi phí phải trả dài hạn</string>
+    <string name="text_txtTK334_frag_cdkt">4. Phải trả nội bộ về vốn kinh doanh</string>
+    <string name="text_txtTK335_frag_cdkt">5. Phải trả nội bộ dài hạn</string>
+    <string name="text_txtTK336_frag_cdkt">6. Doanh thu chưa thực hiện dài hạn</string>
+    <string name="text_txtTK337_frag_cdkt">7. Phải trả dài hạn khác</string>
+    <string name="text_txtTK338_frag_cdkt">8. Vay và nợ thuê tài chính dài hạn</string>
+    <string name="text_txtTK339_frag_cdkt">9. Trái phiếu chuyển đổi</string>
+    <string name="text_txtTK340_frag_cdkt">10. Cổ phiếu ưu đãi</string>
+    <string name="text_txtTK341_frag_cdkt">11. Thuế thu nhập hoãn lại phải trả</string>
+    <string name="text_txtTK342_frag_cdkt">12. Dự phòng phải trả dài hạn</string>
+    <string name="text_txtTK343_frag_cdkt">13. Quỹ phát triển khoa học và công nghệ</string>
+    <string name="text_txtTK400_frag_cdkt">D. Vốn chủ sở hữu (400=410+430)</string>
+    <string name="text_txtTK410_frag_cdkt">I. Vốn chủ sở hữu</string>
+    <string name="text_txtTK411_frag_cdkt">1. Vốn góp của chủ sở hữu</string>
+    <string name="text_txtTK411b_frag_cdkt">- Cổ phiếu phổ thông có quyền biểu quyết</string>
+    <string name="text_txtTK411c_frag_cdkt">- Cổ phiếu ưu đãi</string>
+    <string name="text_txtTK412_frag_cdkt">2. Thặng dư vốn cổ phần</string>
+    <string name="text_txtTK413_frag_cdkt">3. Quyền chọn chuyển đổi trái phiếu</string>
+    <string name="text_txtTK414_frag_cdkt">4. Vốn khác của chủ sở hữu</string>
+    <string name="text_txtTK415_frag_cdkt">5. Cổ phiếu quỹ (*)</string>
+    <string name="text_txtTK416_frag_cdkt">6. Chênh lệch đánh giá lại tài sản</string>
+    <string name="text_txtTK417_frag_cdkt">7. Chênh lệch tỷ giá hối đoái</string>
+    <string name="text_txtTK418_frag_cdkt">8. Quỹ đầu tư phát triển</string>
+    <string name="text_txtTK419_frag_cdkt">9. Quỹ hỗ trợ sắp xếp doanh nghiệp</string>
+    <string name="text_txtTK420_frag_cdkt">10. Quỹ khác thuộc vốn chủ sở hữu</string>
+    <string name="text_txtTK421_frag_cdkt">11. Lợi nhuận sau thuế chưa phân phối</string>
+    <string name="text_txtTK421B_frag_cdkt">- LNST chưa phân phối luỹ kế đến cuối kỳ trước</string>
+    <string name="text_txtTK421C_frag_cdkt">- LNST chưa phân phối kỳ này</string>
+    <string name="text_txtTK422_frag_cdkt">12. Nguồn vốn đầu tư XDCB</string>
+    <string name="text_txtTK430_frag_cdkt">II. Nguồn kinh phí và quỹ khác</string>
+    <string name="text_txtTK431_frag_cdkt">1. Nguồn kinh phí</string>
+    <string name="text_txtTK432_frag_cdkt">2. Nguồn kinh phí đã hình thành TSCĐ</string>
+    <string name="text_txtTK440_frag_cdkt">Tổng cộng nguồn vốn (440=300+400)</string>
+
+    <!-- fragment_lcttgt, fragment_lctttt -->
+
+<string name="text1_txtLCTTGT_frag_lcttgt">I. Lưu chuyển tiền từ hoạt động kinh doanh</string>
+    <string name="text_txtLCTTTT01_frag_lctttt">1. Tiền thu từ bán hàng và cung cấp dịch vụ và doanh thu khác</string>
+    <string name="text_txtLCTTTT02_frag_lctttt">2. Tiền chi trả cho người cung cấp hàng hoá dịch vụ</string>
+    <string name="text_txtLCTTTT03">3. Tiền chi trả cho người lao động</string>
+    <string name="text_txtLCTTTT04">4. Tiền chi trả lãi vay</string>
+    <string name="text_txtLCTTTT05">5. Thuế TNDN đã nộp</string>
+    <string name="text_txtLCTTTT06">6. Tiền thu khác từ hoạt động kinh doanh</string>
+    <string name="text_txtLCTTTT07">7. Tiền chi khác từ hoạt động kinh doanh</string>
+    <string name="text_txtLCTTGT1_frag_lctt">1. Lợi nhuận trước thuế</string>
+    <string name="text2_txtLCTTGT_frag_lcttgt">2. Điều chỉnh cho các khoản</string>
+    <string name="text_txtLCTTGT2_frag_lctt">- Khấu hao TSCĐ và BĐSĐT</string>
+    <string name="text_txtLCTTGT3_frag_lctt">- Các khoản dự phòng</string>
+    <string name="text_txtLCTTGT4_frag_lctt">- Lãi, lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ</string>
+    <string name="text_txtLCTTGT5_frag_lctt">- Lãi, lỗ từ hoạt động đầu tư</string>
+    <string name="text_txtLCTTGT6_frag_lctt">- Chi phí lãi vay</string>
+    <string name="text_txtLCTTGT7_frag_lctt">- Các khoản điều chỉnh khác </string>
+    <string name="text_txtLCTT08_frag_lctt">3. Lợi nhuận từ hoạt động kinh doanh trước thay đổi vốn lưu động</string>
+    <string name="text_txtLCTT09_frag_lctt">- Tăng, giảm các khoản phải thu</string>
+    <string name="text_txtLCTT10_frag_lctt">- Tăng, giảm hàng tồn kho</string>
+    <string name="text_txtLCTT11_frag_lctt">- Tăng, giảm các khoản phải trả (Không kể lãi vay phải trả, thuế thu nhập doanh nghiệp phải nộp)</string>
+    <string name="text_txtLCTT12_frag_lctt">- Tăng, giảm chi phí trả trước</string>
+    <string name="text_txtLCTT13_frag_lctt">- Tăng, giảm chứng khoán kinh doanh</string>
+    <string name="text_txtLCTT14_frag_lctt">- Tiền lãi vay đã trả</string>
+    <string name="text_txtLCTT15_frag_lctt">- Thuế thu nhập doanh nghiệp đã nộp</string>
+    <string name="text_txtLCTT16_frag_lctt">- Tiền thu khác từ hoạt động kinh doanh</string>
+    <string name="text_txtLCTT17_frag_lctt">- Tiền chi khác cho hoạt động kinh doanh</string>
+    <string name="text_txtLCTT20_frag_lctt">Lưu chuyển tiền thuần từ hoạt động kinh doanh</string>
+    <string name="text3_txtLCTTGT_frag_lcttgt">II. Lưu chuyển tiền từ hoạt động đầu tư</string>
+    <string name="text_txtLCTT21_frag_lctt">1. Tiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác</string>
+    <string name="text_txtLCTT22_frag_lctt">2. Tiền thu từ thanh lý, nhượng bán TSCĐ và các tài sản dài hạn khác</string>
+    <string name="text_txtLCTT23_frag_lctt">3. Tiền chi cho vay, mua các công cụ nợ của đơn vị khác</string>
+    <string name="text_txtLCTT24_frag_lctt">4. Tiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác</string>
+    <string name="text_txtLCTT25_frag_lctt">5. Tiền chi đầu tư góp vốn vào đơn vị khác</string>
+    <string name="text_txtLCTT26_frag_lctt">6. Tiền thu hồi đầu tư góp vốn vào đơn vị khác</string>
+    <string name="text_txtLCTT27_frag_lctt">7. Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia</string>
+    <string name="text_txtLCTT30_frag_lctt">Lưu chuyển tiền thuần từ hoạt động đầu tư</string>
+    <string name="text4_txtLCTTGT_frag_lcttgt">III. Lưu chuyển tiền từ hoạt động tài chính</string>
+    <string name="text_txtLCTT31_frag_lctt">1. Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu</string>
+    <string name="text_txtLCTT32_frag_lctt">2. Tiền trả lại vốn góp cho các chủ sở hữu, mua lại cổ phiếu  của doanh nghiệp đã phát hành   </string>
+    <string name="text_txtLCTT33_frag_lctt">3. Tiền thu từ đi vay</string>
+    <string name="text_txtLCTT34_frag_lctt">4. Tiền trả nợ gốc vay</string>
+    <string name="text_txtLCTT35_frag_lctt">5. Tiền trả nợ gốc thuê tài chính</string>
+    <string name="text_txtLCTT36_frag_lctt">6. Cổ tức, lợi nhuận đã trả cho chủ sở hữu</string>
+    <string name="text_txtLCTT40_frag_lctt">Lưu chuyển tiền thuần từ hoạt động tài chính</string>
+    <string name="text_txtLCTT50_frag_lctt">Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)</string>
+    <string name="text_txtLCTT60_frag_lctt">Tiền và tương đương tiền đầu kỳ</string>
+    <string name="text_txtLCTT61_frag_lctt">Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ</string>
+    <string name="text_txtLCTT70_frag_lctt">Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)</string>
+
+    <!-- main_menu -->
+
+    <string name="title_Search_main_menu">Search</string>
+    <string name="title_Import_main_menu">Import From Excel</string>
+    <string name="title_Export_main_menu">Export to Excel</string>
+
+   <!--fragment_hosodoanhnghiep -->
+
+    <string name="text_txtTenDoanhNghiep_fragment_hosodoanhnghiep">Tên doanh nghiệp:</string>
+    <string name="hint_edtTenDoanhNghiep_fragment_hosodoanhnghiep">Tên doanh nghiệp</string>
+    <string name="text_txtTenQuocTe_fragment_hosodoanhnghiep">Tên quốc tế:</string>
+    <string name="hint_edtTenQuocTe_fragment_hosodoanhnghiep">Tên quốc tế</string>
+    <string name="text_txtTenVietTat_fragment_hosodoanhnghiep">Tên viết tắt:</string>
+    <string name="hint_edtTenVietTat_fragment_hosodoanhnghiep">Tên viết tắt</string>
+    <string name="text_txtDienThoai_fragment_hosodoanhnghiep">Điện thoại:</string>
+    <string name="hint_edtDienThoai_fragment_hosodoanhnghiep">Điện thoại</string>
+    <string name="text_txtFax_fragment_hosodoanhnghiep">Fax:</string>
+    <string name="hint_edtFax_fragment_hosodoanhnghiep">Fax</string>
+    <string name="text_txtEmail_fragment_hosodoanhnghiep">Email:</string>
+    <string name="hint_edtEmail_fragment_hosodoanhnghiep">Email</string>
+    <string name="text_txtWebsite_fragment_hosodoanhnghiep">Website:</string>
+    <string name="hint_edtWebsite_fragment_hosodoanhnghiep">Website</string>
+    <string name="text_txtLinhVuc_fragment_hosodoanhnghiep">Lĩnh vực:</string>
+    <string name="hint_edtLinhVuc_fragment_hosodoanhnghiep">Lĩnh vực</string>
+    <string name="text_txtNganhNghe_fragment_hosodoanhnghiep">Ngành nghề:</string>
+    <string name="hint_edtNganhNghe_fragment_hosodoanhnghiep">Ngành nghề</string>
+    <string name="text_txtSanGiaoDich_fragment_hosodoanhnghiep">Sàn GD:</string>
+    <string name="hint_edtSanGiaodich_fragment_hosodoanhnghiep">Sàn giao dịch</string>
+    <string name="text_txtMaCK_fragment_hosodoanhnghiep">Mã CK:</string>
+    <string name="hint_edtMaCK_fragment_hosodoanhnghiep">Mã CK</string>
+    <string name="text_txtNgayNiemYet_fragment_hosodoanhnghiep">Ngày niêm yết:</string>
+    <string name="hint_edtNgayNiemYet_fragment_hosodoanhnghiep">Ngày niêm yết</string>
+    <string name="text_txtLichSuHinhThanh_fragment_hosodoanhnghiep">Lịch sử hình thành:</string>
+</resources>

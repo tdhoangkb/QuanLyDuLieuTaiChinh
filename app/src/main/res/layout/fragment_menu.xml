@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spnListMaCK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnHoSoDoanhNghiep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btnHoSoDoanhNghiep_frag_menu" />
+
+    <TextView
+        android:id="@+id/txtTaiChinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_txtTaiChinh_frag_menu"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnKetQuaKinhDoanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btnKetQuaKinhDoanh_frag_menu"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/btnCanDoiKeToan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btnCanDoiKeToan_frag_menu"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/btnLuuChuyenTienTeTrucTiep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btnLuuChuyenTienTeTrucTiep"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/btnLuuChuyenTienTeGianTiep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btnLuuChuyenTienTeGianTiep" />
+
+    <Button
+        android:id="@+id/btnChiSoTaiChinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btnChiSoTaiChinh_frag_menu"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/btnChiTieuKeHoach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btnChiTieuKeHoach_frag_menu"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/txtBieuDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_txtBieuDo_frag_menu"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spnListBieuDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

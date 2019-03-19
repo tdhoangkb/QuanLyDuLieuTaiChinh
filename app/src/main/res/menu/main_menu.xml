@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuSearch"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/title_Search_main_menu"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnuImportFromExcel"
+        android:icon="@drawable/import_from_excel"
+        android:title="@string/title_Import_main_menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnuExportToExcel"
+        android:icon="@drawable/export_to_excel"
+        android:title="@string/title_Export_main_menu"
+        app:showAsAction="always" />
+</menu>
